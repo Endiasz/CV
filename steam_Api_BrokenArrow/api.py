@@ -29,7 +29,6 @@ class news:
 
     def display(self):
         print(f"\nTitle: {self.title}\nContent:\n{self.content}\n\n{self.url}")
-        # print(item)
 
 
 req = requests.get('https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=1604270&count=3&maxlength=600&format=json') # returning json
